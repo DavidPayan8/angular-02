@@ -1,0 +1,18 @@
+h3{
+    color: brown;
+}
+.container-ms{
+    margin-inline:40%;
+    margin-block: 10%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.card-title{
+    padding: 2%;
+}

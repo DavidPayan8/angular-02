@@ -1,0 +1,9 @@
+<h2>Personajes</h2>
+<div *ngFor="let personaje of personajes">
+    {{personaje.nombre | uppercase }} <button (click)="onSelect(personaje)">Editar</button>
+</div>
+<div *ngIf="personajeSel">
+        <label for="">Nombre:
+            <input type="" [(ngModel)]="personajeSel.nombre" placeholder=>
+        </label>
+</div>
